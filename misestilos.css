@@ -1,0 +1,85 @@
+/* Sintaxis de CSS
+
+selector {
+    atributo: valor;
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Mozilla+Text:wght@200..700&display=swap');
+
+/* selectores de elemento */
+body {
+    background-color: yellow;
+    font-family: "Mozilla Text", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Mozilla Headline", sans-serif;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header, footer {
+    color: white;
+    background-color: black;
+    /*background-image: url(img/fox03.jpg);*/
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    border-bottom: 2px solid black;
+}
+
+section {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* selectores personalizados */
+
+.adaptable {
+    display: block;
+    width: 100%;
+}
+
+.centrada {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.destacado {
+    background-color: darkkhaki;
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
